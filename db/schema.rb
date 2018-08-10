@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_10_095103) do
+ActiveRecord::Schema.define(version: 2018_08_10_134748) do
 
   create_table "charges", force: :cascade do |t|
     t.string "fee_code"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 2018_08_10_095103) do
     t.string "channel"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "vehicle_length"
   end
 
 end
