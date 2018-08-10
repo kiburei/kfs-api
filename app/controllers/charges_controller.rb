@@ -2,7 +2,12 @@ class ChargesController < ApplicationController
   before_action :set_charges, only: [:show, :update, :destroy]
 
     def index
-      @charges = Charge.all
+      @charges = Charge.where(vehicle_category: params[:vehicle_category])
+      json_response(@charges)
+    end
+
+    def category
+      @charges = Charge.where(vehicle_category: params[:vehicle_category])
       json_response(@charges)
     end
 
