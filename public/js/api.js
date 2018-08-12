@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://http://nouveta.tech:3000/categories', true);
+request.open('GET', 'http://nouveta.tech:3000/categories', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
@@ -17,7 +17,7 @@ request.send();
 // Get Total Earnings
   var request = new XMLHttpRequest();
 
-  request.open('GET', 'http://http://nouveta.tech:3000/earnings', true);
+  request.open('GET', 'http://nouveta.tech:3000/earnings', true);
   request.onload = function () {
 
     // Begin accessing JSON data here
@@ -34,7 +34,7 @@ request.send();
 // Vehicles Ferried
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://http://nouveta.tech:3000/payments', true);
+request.open('GET', 'http://nouveta.tech:3000/payments', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
@@ -53,7 +53,7 @@ request.send();
 // Mpesa Collection
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://http://nouveta.tech:3000/payments', true);
+request.open('GET', 'http://nouveta.tech:3000/payments', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
@@ -78,7 +78,7 @@ request.send();
 // Card Collection
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://http://nouveta.tech:3000/payments', true);
+request.open('GET', 'http://nouveta.tech:3000/payments', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
