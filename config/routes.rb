@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'charges/category', :to => 'category#charges'
   resources :payments
   resources :categories
+  resources :earnings
 end

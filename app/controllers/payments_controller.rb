@@ -3,7 +3,7 @@ class PaymentsController < ApplicationController
 
     def index
       @payments = Payment.all
-      json_response(@payment)
+      json_response(@payments)
     end
 
     def create
